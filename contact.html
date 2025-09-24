@@ -52,6 +52,17 @@
 	<![endif]-->
 
 	</head>
+	
+	 
+	<style>
+		/* Mobile-friendly background positioning */
+		@media (max-width: 768px) {
+			#fh5co-header {
+				background-position: center top !important; /* shift focus to top for mobile */
+				background-size: cover !important;
+			}
+		}
+	</style>
 	<body>
 		
 	<div class="fh5co-loader"></div>
@@ -76,7 +87,12 @@
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/img_bg_2.jpg);">
+	
+	<header id="fh5co-header" class="fh5co-cover" role="banner" 
+		style="background-image: url('images/img_bg_234.png'); 
+			   background-size: cover;" 
+		data-stellar-background-ratio="0.5">
+		
 		<div class="overlay"></div>
 		<div class="fh5co-container">
 			<div class="row">
@@ -96,93 +112,87 @@
 	<div class="fh5co-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-md-push-6 animate-box">
-					<h3>Get In Touch</h3>
-					<form action="#">
-						<div class="row form-group">
-							<div class="col-md-6">
-								<label for="fname">First Name</label>
-								<input type="text" id="fname" class="form-control" placeholder="Your firstname">
-							</div>
-							<div class="col-md-6">
-								<label for="lname">Last Name</label>
-								<input type="text" id="lname" class="form-control" placeholder="Your lastname">
-							</div>
-						</div>
-
-						<div class="row form-group">
-							<div class="col-md-12">
-								<label for="email">Email</label>
-								<input type="text" id="email" class="form-control" placeholder="Your email address">
-							</div>
-						</div>
-
-						<div class="row form-group">
-							<div class="col-md-12">
-								<label for="subject">Subject</label>
-								<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
-							</div>
-						</div>
-
-						<div class="row form-group">
-							<div class="col-md-12">
-								<label for="message">Message</label>
-								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Write us something"></textarea>
-							</div>
-						</div>
-						<div class="form-group">
-							<input type="submit" value="Send Message" class="btn btn-primary">
-						</div>
-
-					</form>		
-				</div>
-				<div class="col-md-5 col-md-pull-5 animate-box">
-					
-					<div class="fh5co-contact-info">
-						<h3>Contact Information</h3>
-						<ul>
-							<li class="address">198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-							<li class="phone"><a href="tel://1234567920">+ 1235 2355 98</a></li>
-							<li class="email"><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-							<li class="url"><a href="http://gettemplates.co">gettemplates.co</a></li>
+				<!-- Groom Info -->
+				<div class="col-md-6 animate-box text-center">
+					<img src="images/vic.jpg" alt="Groom Photo" class="img-responsive img-circle" style="width:200px; margin: 0 auto;">
+					<div class="fh5co-contact-info" style="margin-top: 20px;">
+						<h3>Groom</h3>
+						<ul style="list-style: none; padding-left: 0;">
+							<li><strong>Name:</strong> VIC RONIL C. YARAG</li>
+							<li><strong>Phone:</strong> <a href="tel:+1234567890">0909 7395 778</a></li>
+							<li><strong>Email:</strong> <a href="#">vicronilyarag@gmail.com</a></li>
+							<li><strong>Facebook:</strong> <a href="" target="">Vic Ronil Yarag</a></li>
 						</ul>
 					</div>
+				</div>
 
+				<!-- Bride Info -->
+				<div class="col-md-6 animate-box text-center">
+					<img src="images/des.jpg" alt="Bride Photo" class="img-responsive img-circle" style="width:200px; margin: 0 auto;">
+					<div class="fh5co-contact-info" style="margin-top: 20px;">
+						<h3>Bride</h3>
+						<ul style="list-style: none; padding-left: 0;">
+							<li><strong>Name:</strong> ODESSA I. CORDERO</li>
+							<li><strong>Phone:</strong> <a href="tel:+1987654321">0927 5975 942</a></li>
+							<li><strong>Email:</strong> <a href="">odessacordero69@gmail.com</a></li>
+							<li><strong>Facebook:</strong> <a href="">Odessa Olib Rain</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			
+
+			<!-- Google Maps Section -->
+			<div class="row" style="margin-top:40px;">
+				<div class="col-md-6 animate-box">
+					<h3>Church Location</h3>
+					<i>St. John Neumann Parish Sicayab, Dipolog City</i>
+					<img src="images/ven1.png" alt="Bride Photo" class="img-responsive" style="width:400px; margin: 0 auto;">
+					
+				</div>
+				<div class="col-md-6 animate-box">
+					<h3>Reception Venue</h3>
+					<i>Missio Dei Hotel Miputak, Dipolog City</i>
+					<img src="images/ven2.png" alt="Bride Photo" class="img-responsive" style="width:400px; margin: 0 auto;">
+					
+				</div>
+			</div>
 		</div>
 	</div>
+
+
  
-	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
+	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/dr.png);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Are You Attending?</h2>
-	
+					<h2>You're Invited!</h2>
+					<p style="font-size: 18px; line-height: 1.6; margin-top: 15px; color: #fff;">
+						On <strong>October 18</strong>, we, <strong>Vic & Odessa</strong>, will celebrate our marriage, and we would be honored to have you join us in spirit or in person. <br><br>
+						Your presence, blessings, and prayers mean everything to us. This website serves as our online invitation to share the joy of this special day, and to keep you updated on the celebration. 💖
+					</p>
 				</div>
 			</div>
-			<div class="row animate-box">
-				<div class="col-md-10 col-md-offset-1">
-					<form class="form-inline">
-		 
-						<div class="col-md-12 col-sm-12">
-							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
-						</div>
-					</form>
+			<div class="row animate-box" style="margin-top: 20px;">
+				<div class="col-md-12 text-center">
+					<p style="font-size: 16px; color: #fff;">
+						We can’t wait to celebrate together, <br>
+						with all our love, <br>
+						<strong>Vic & Odessa</strong>
+					</p>
 				</div>
 			</div>
 		</div>
 	</div>
-		<footer id="fh5co-footer" role="contentinfo">
+	
+	<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
 
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2025 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>  @vicronil&odessa</small>
+						<small class="block">Designed by  VRCY : #vicodessaweddingday</small>
 					</p>
 					<p>
 						 
